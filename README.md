@@ -14,3 +14,7 @@
 ./build.sh
 ./run.sh
 ```
+
+## 備考
+- 実行環境
+  - EC2(AMI:Deep Learning Base GPU AMI, instancetype:d4dn.4xlarge, EBS:150GB)
