@@ -9,5 +9,8 @@
 - `./tmp/`配下にzipファイルを格納
 - `sh unzip_files.sh`
 
-## ライブラリインストール
-- `pip install -r requirements.txt`
+## 環境構築(Dockerを起動)
+```shell
+./build.sh
+./run.sh
+```
