@@ -63,6 +63,9 @@ RUN git clone https://github.com/yuvipanda/jupyter-desktop-server.git /opt/insta
 RUN cd /opt/install && \
    conda env update -n base --file environment.yml
 
+# パッケージの追加
+RUN pip install albumentations
+
 # Since uid and gid will change at entrypoint, anything can be used
 ARG USER_ID=1000
 ARG GROUP_ID=1000

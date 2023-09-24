@@ -7,7 +7,7 @@ docker run --rm -it \
     -e LOCAL_UID=$(id -u $USER) \
     -e LOCAL_GID=$(id -g $USER) \
     -e PYTHONPATH=/home/developer/transformers:/home/developer/transformers/experiments/minigrid/dependencies/gym-minigrid:/home/developer/transformers/experiments/minigrid/dependencies/torch-ac \
-    -v .:/home/jovyan/kaggle_pytorch_docker\
+    -v .:/home/jovyan/solafune_classify_genai\
     --net host \
     -e USE_VNC=true \
     -e DISPLAY=:5 \
